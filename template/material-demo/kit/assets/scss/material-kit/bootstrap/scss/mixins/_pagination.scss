@@ -1,0 +1,29 @@
+//------------------------------------------------------------------------------
+// | Sharp-Eyes[ Sharp eyes can discern truth and lies. ]                      -
+// | Copyright (c) 2006~2020 http://sharp-eyes.cn All rights reserved.         -
+// | Licensed ( https://opensource.org/licenses/MIT )                          -
+// | Author: Albert <albert@rocareer.com>                                      -
+//------------------------------------------------------------------------------
+
+// Pagination
+
+@mixin pagination-size($padding-y, $padding-x, $font-size, $line-height, $border-radius) {
+  .page-link {
+    padding: $padding-y $padding-x;
+    font-size: $font-size;
+    line-height: $line-height;
+  }
+
+  .page-item {
+    &:first-child {
+      .page-link {
+        @include border-left-radius($border-radius);
+      }
+    }
+    &:last-child {
+      .page-link {
+        @include border-right-radius($border-radius);
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+//------------------------------------------------------------------------------
+// | Sharp-Eyes[ Sharp eyes can discern truth and lies. ]                      -
+// | Copyright (c) 2006~2020 http://sharp-eyes.cn All rights reserved.         -
+// | Licensed ( https://opensource.org/licenses/MIT )                          -
+// | Author: Albert <albert@rocareer.com>                                      -
+//------------------------------------------------------------------------------
+
+@mixin sidebar-background-color($background-color, $font-color){
+    .nav{
+        .nav-item{
+            .nav-link{
+              color: $font-color;
+            }
+            i{
+              color: rgba($font-color, .8);
+            }
+
+            &.active,
+            &:hover{
+                [data-toggle="collapse"]{
+                  color: $font-color;
+                    i{
+                        color: rgba($font-color, .8);
+                    }
+                }
+            }
+        }
+    }
+    .user{
+        a{
+          color: $font-color;
+        }
+    }
+    .simple-text{
+        color: $font-color;
+    }
+    .sidebar-background:after{
+        background: $background-color;
+        opacity: .8;
+    }
+}
+
+@mixin sidebar-active-color($font-color){
+    .nav{
+      .nav-item{
+            &.active > a:not([data-toggle="collapse"]){
+                color: $font-color;
+                opacity: 1;
+                @include shadow-big-color($font-color);
+
+                i{
+                    color: rgba($font-color, .8);
+                }
+            }
+        }
+    }
+}
+
+@mixin set-background-color-button($color){
+
+    li.active > a{
+        background-color: $color;
+        @include shadow-big-color($color);
+    }
+}

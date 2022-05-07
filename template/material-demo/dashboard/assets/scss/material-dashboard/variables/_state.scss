@@ -1,0 +1,23 @@
+//------------------------------------------------------------------------------
+// | Sharp-Eyes[ Sharp eyes can discern truth and lies. ]                      -
+// | Copyright (c) 2006~2020 http://sharp-eyes.cn All rights reserved.         -
+// | Licensed ( https://opensource.org/licenses/MIT )                          -
+// | Author: Albert <albert@rocareer.com>                                      -
+//------------------------------------------------------------------------------
+
+// Form states and alerts
+//
+// Define colors for form feedback states and, by default, alerts.
+$state-success-text: $bmd-inverse !default;
+$state-success-bg: $brand-success !default;
+
+$state-info-text: $bmd-inverse !default;
+$state-info-bg: $brand-info !default;
+
+$state-warning-text: $bmd-inverse !default;
+$state-warning-bg: $brand-warning !default;
+
+$state-danger-text: $bmd-inverse !default;
+$state-danger-bg: $brand-danger !default;
+
+$state-rose-bg: $brand-rose !default;

@@ -1,0 +1,25 @@
+//------------------------------------------------------------------------------
+// | Sharp-Eyes[ Sharp eyes can discern truth and lies. ]                      -
+// | Copyright (c) 2006~2020 http://sharp-eyes.cn All rights reserved.         -
+// | Licensed ( https://opensource.org/licenses/MIT )                          -
+// | Author: Albert <albert@rocareer.com>                                      -
+//------------------------------------------------------------------------------
+
+@mixin navbar-colors($color, $link-color) {
+    color: $link-color;
+    background-color: $color !important;
+    @include shadow-navbar-color($color);
+
+    .dropdown-item:hover,
+    .dropdown-item:focus{
+      @include shadow-small-color($color);
+      background-color: $color;
+      color: $link-color;
+    }
+
+    .navbar-toggler{
+        .navbar-toggler-icon{
+            background-color: $link-color;
+        }
+    }
+}

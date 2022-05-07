@@ -1,0 +1,19 @@
+.presentation-page .page-header, .index-page .page-header {
+    height: 76vh;
+}
+
+.row-article{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    border: 2px dashed rgba(0, 0, 0, 0.1);
+
+    align-items: center;
+}
+
+.author{
+    color:rgb(205, 205, 205);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,35 @@
+//------------------------------------------------------------------------------
+// | Sharp-Eyes[ Sharp eyes can discern truth and lies. ]                      -
+// | Copyright (c) 2006~2020 http://sharp-eyes.cn All rights reserved.         -
+// | Licensed ( https://opensource.org/licenses/MIT )                          -
+// | Author: Albert <albert@rocareer.com>                                      -
+//------------------------------------------------------------------------------
+
+.card-form-horizontal{
+    .card-body{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .form-group,
+    .input-group{
+        .form-control{
+            margin-bottom: 0;
+        }
+    }
+
+    form{
+        margin: 0;
+    }
+
+    .btn{
+        margin: 0;
+    }
+    .input-group .input-group-addon{
+        padding-left: 0;
+    }
+
+    .bmd-form-group{
+        padding-bottom: 0px;
+        padding-top: 0;
+    }
+}

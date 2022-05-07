@@ -1,0 +1,33 @@
+//------------------------------------------------------------------------------
+// | Sharp-Eyes[ Sharp eyes can discern truth and lies. ]                      -
+// | Copyright (c) 2006~2020 http://sharp-eyes.cn All rights reserved.         -
+// | Licensed ( https://opensource.org/licenses/MIT )                          -
+// | Author: Albert <albert@rocareer.com>                                      -
+//------------------------------------------------------------------------------
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+
+$spacer:  1rem !default;    // $form-group-margin-bottom uses $spacer-y.  Decided to try this globally and see how it works out.
+//$spacer-x:                   $spacer !default;
+//$spacer-y:                   $spacer !default;
+//$spacers: (
+//  0: (
+//    x:   0,
+//    y:   0
+//  ),
+//  1: (
+//    x:   $spacer-x,
+//    y:   $spacer-y
+//  ),
+//  2: (
+//    x:   ($spacer-x * 1.5),
+//    y:   ($spacer-y * 1.5)
+//  ),
+//  3: (
+//    x:   ($spacer-x * 3),
+//    y:   ($spacer-y * 3)
+//  )
+//) !default;
